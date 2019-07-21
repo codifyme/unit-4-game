@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystals Collector Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Added link to the jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <p id="result">Random result: </p>
+    <div class="crystals">
+        <div class="crystal" data-random="8"><img src="/assets/images/aquabluecrystal.jpg" width="150" height="100">
+        </div>
+        <div class="crystal" data-random="4"><img src="/assets/images/purple1crystal.jpg" width="150" height="100">
+        </div>
+        <div class="crystal" data-random="5"><img src="/assets/images/redcrystal1.jpg" width="150" height="100">
+        </div>
+        <div class="crystal" data-random="2"><img src="/assets/images/greencrystal.jpg" width="150" height="100">
+        </div>
+    </div>
+    <p id="previous"></p>
+    <p id="win"></p>
+    <p id="lost"></p>
+    <!-- Bootstrap Container-->
+    <!--<div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                    <h1 class="display-4">Crystals Collector !</h1>
+                    <p class="lead">You will be given a random number at the start of the game.</p>
+                    <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points
+                        to your total score.</p>
+                    <p>You win the game by matching your total score to random number,
+                        you lose the game bif your total score goes above the random numbers.</p>
+                    <p>The value of each crystal is hidden from you until you click on it</p>
+                    <p>Each time when the game starts,
+                        the game will change the values of each crystal</p>
+                </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">39</div>
+                        <div class="col-6">
+                            <div class="row-4">Wins: </div>
+                            <div class="row-4">Losses: </div>
+                        </div>
+                    </div>
+                    <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+                        <div class="btn-group mr-2" role="group" aria-label="First group"><button type="button"
+                                class="btn btn-secondary"><img src="/assets/images/bluecrystal.jpg" width="100"
+                                    height="60"></button></div>
+                        <div class="btn-group mr-2" role="group" aria-label="Second group"><button type="button"
+                                class="btn btn-secondary"><img src="/assets/images/purplecrystal.jpg" width="100"
+                                    height="60"></button></div>
+                        <div class=" btn-group mr-2" role="group" aria-label="Third group"><button type="button"
+                                class="btn btn-secondary"><img src="/assets/images/redcrystal.jpg" width="100"
+                                    height="60"></button></div>
+                        <div class=" btn-group mr-2" role="group" aria-label="Fourth group"><button type="button"
+                                class="btn btn-secondary"><img src="/assets/images/yellowcrystal.jpg" width="100"
+                                    height="60"></button></div>
+                    </div>
+                    <div class=" alert alert-primary" role="alert">Your total score is: </div>
+                    <div class="alert alert-secondary" role="alert">0 </div>-->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>

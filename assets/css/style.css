@@ -1,0 +1,28 @@
+.crystal {
+    border: 1px solid lightseagreen;
+    height: 150px;
+    width: 150px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px rgba(red, green, blue, alpha);
+    transition: box-shadow 1s;
+    align-content: middle;
+}
+
+.crystals {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.crystal div img {
+    width: 50px;
+    height: 50px;
+    align-items: flex-start;
+
+}
+
+.crystal:hover {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition:box-shadow 1s, transform 2s;
+}
