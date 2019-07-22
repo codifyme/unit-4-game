@@ -14,8 +14,20 @@
 </head>
 
 <body>
-    <p id="result">Random result: </p>
+    <!-- Container will hold everything. -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Crystal Collector Game</h1>
+            <p class="lead">Choose your favorite crystal and score!!</p>
+        </div>
+    </div>
+
+    <div class="result">
+        <p id="result">Random result: </p>
+    </div>
     <div class="crystals">
+
+
         <div class="crystal" data-random="8"><img src="/assets/images/aquabluecrystal.jpg" width="150" height="100">
         </div>
         <div class="crystal" data-random="4"><img src="/assets/images/purple1crystal.jpg" width="150" height="100">
@@ -25,9 +37,25 @@
         <div class="crystal" data-random="2"><img src="/assets/images/greencrystal.jpg" width="150" height="100">
         </div>
     </div>
-    <p id="previous"></p>
-    <p id="win"></p>
-    <p id="lost"></p>
+    <div class="card card-defauld">
+        <div class="card-body">
+            <p id="previous">Previous:</p>
+        </div>
+    </div>
+    <div class="card card-defauld">
+        <div class="card-body">
+            <p id="win-counter">win:</p>
+        </div>
+    </div>
+    <div class="card card-defauld">
+        <div class="card-body">
+            <p id="lost-counter">lost:</p>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
     <!-- Bootstrap Container-->
     <!--<div class="jumbotron jumbotron-fluid">
                 <div class="container">
