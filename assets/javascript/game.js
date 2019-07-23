@@ -36,7 +36,7 @@ $(document).ready(function() {
     var num = parseInt($(this).attr('data-random'));
 
     previous += num;
-    $('#previous').text('Total score: ', +previous);
+    $('#previous').text('Total Score: ', +previous);
 
     console.log(previous);
     $('#previous').text('Total Score: ' + previous);
@@ -61,6 +61,7 @@ $(document).ready(function() {
     }
   });
   // Speudo Coding
+  //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   // I have a game of 4 crystals and random Result
   // Every crystal have a random number between 1-12 as it mentioned in the assignment
   // A new random number should be generate every single time a LOST or WIN on those 4 crystals
